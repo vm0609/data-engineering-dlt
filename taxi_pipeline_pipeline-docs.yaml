@@ -1,0 +1,12 @@
+source_context:
+  api_description: "NYC Taxi Trip data for Data Engineering Zoomcamp"
+  base_url: "https://us-central1-dlthub-analytics.cloudfunctions.net"
+  endpoints:
+    - path: "/data_engineering_zoomcamp_api"
+      method: "GET"
+      description: "Returns a list of taxi trip records including timestamps, coordinates, and fare details."
+      sample_payload_fields:
+        - Passenger_Count
+        - Trip_Pickup_DateTime
+        - Trip_Dropoff_DateTime
+        - Total_Amt
